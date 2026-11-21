@@ -13,7 +13,7 @@ class SolutionDict:
         seen = {}
         for num in nums:
             seen[num] = seen.get(num,0)+1
-        return  sorted(seen,key = seen.get, reverse = True)[:k]
+        return sorted(seen,key = seen.get, reverse = True)[:k]
 
 
 class SolutionBucketSort:
