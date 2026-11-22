@@ -1,6 +1,6 @@
-#time complexity O(n)
-#space complexity O(1) no memory created 
-#two ponters approch
+# time complexity O(n)
+# space O(1), in-place swaps 
+# two pointers approach
 
 class Solution:
     def reverseString(self, s: list[str]) -> None:
