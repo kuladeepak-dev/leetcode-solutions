@@ -1,5 +1,5 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
+    def isPalindrome_v1(self, s: str) -> bool:
         s = s.lower() #space complexity O(n)
         es = "".join(char for char in s if char.isalnum())
         rs =es[::-1]
